@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <style>
+    body {
+      width: 260px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      margin: 0;
+    }
+    h2 {
+      font-size: 16px;
+      margin-top: 0;
+      text-align: center;
+      color: #38bdf8;
+    }
+    .box {
+      background: #1e293b;
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+    input[type="text"] {
+      width: 100%;
+      background: #0f172a;
+      border: 1px solid #475569;
+      color: #ffffff;
+      padding: 6px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    button {
+      width: 100%;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      padding: 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background: #2563eb;
+    }
+    .strength-text {
+      font-size: 12px;
+      margin-top: 5px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .footer {
+      text-align: center;
+      font-size: 11px;
+      color: #64748b;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🔐 PassWordGen</h2>
+
+  <div class="box">
+    <label style="font-size: 12px; color: #94a3b8;">Generate Password:</label>
+    <input type="text" id="generatedPassword" readonly placeholder="Click Generate">
+    <button id="generateBtn">Generate Secure</button>
+  </div>
+
+  <div class="box">
+    <label style="font-size: 12px; color: #94a3b8;">Check Any Password:</label>
+    <input type="text" id="checkInput" placeholder="Type to test strength...">
+    <div id="strengthOutput" class="strength-text" style="color: #94a3b8;">Strength: Enter password</div>
+  </div>
+
+  <div class="footer">
+    Created by <strong>Riswan-LimagaYt</strong>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
