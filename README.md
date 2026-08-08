@@ -25,7 +25,7 @@
 
 ## 📥 Download & Install Instructions
 
-1. **[Click Here to Download the ZIP File](https://github.com/LimagaOG/password-generator/raw/main/PasswordGenerator_Riswan.zip)**
+1. **[Click Here to Download the ZIP File]([https://github.com/LimagaOG/password-generator](https://github.com/LimagaOG/password_generator)/raw/main/PasswordGenerator_Riswan.zip)**
 2. Unzip or extract the downloaded `.zip` file into a folder on your computer.
 3. Open your browser and go to `chrome://extensions/`.
 4. Turn on **Developer mode** using the toggle switch in the top-right corner.
